@@ -4,7 +4,6 @@
 ---
 
 ## Approach
-
 The main aim of the project is to detect road lane markings. I followed below sequence of steps to build the pipeline:
 * Noise removal
 * Lane mask generation
@@ -41,6 +40,11 @@ The Hough line detection algorithm helped to remove lot of edge outliers but pro
 - I found multiple candidates for both left and right lanes. I selected one line from each category based on the minimum angle difference between pair of lines.
 - I used line pair to extrapolate the line markings by finding the line intercepts and vanishing gradient points. 
 
+## Results
+![image1](./test_images_output/solideWhiteCurve.jpg)
+![image2](./test_images_output/solideWhiteRight.jpg)
+![image3](./test_images_output/solidYellowCurve.jpg)
+
 ## Limitations and Improvements
 - The lane detection mechanism can be further improved by fusing results from HSV and RGB color spaces. I used only one colorspace for lane detection
 - The algorithm is not robust for different weather conditions
@@ -49,9 +53,3 @@ The Hough line detection algorithm helped to remove lot of edge outliers but pro
 
 ## Conclusion
 Overall, it was nice experience in building the lane detection pipeline. It reminded me of my computer vision course work in the past :)
-
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
-
-
