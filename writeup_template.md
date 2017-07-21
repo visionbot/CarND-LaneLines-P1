@@ -48,7 +48,7 @@ The Hough line detection algorithm helped to remove lot of edge outliers but pro
 - Currently, I am select one line from left and right sets. This might cause false positive in real time scenario. This can be improved by using line fitting (RANSAC) techniques on all left and right line points.
 
 ## Conclusion
-Overall, it was nice experience in building the lane detection pipeline. It reminded of my computer vision course work in the past :)
+Overall, it was nice experience in building the lane detection pipeline. It reminded me of my computer vision course work in the past :)
 
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
