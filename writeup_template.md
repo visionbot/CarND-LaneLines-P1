@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-<img src="test_images_output/solideWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="./test_images_output/solideWhiteCurve.jpg" width="480" alt="Combined Image" />
 ---
 
 ## Approach
