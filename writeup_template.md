@@ -1,7 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-<img src="./test_images_output/solideWhiteCurve.jpg" width="480" alt="Combined Image" />
----
+![image1](./test_images_output/solidWhiteCurve.jpg)
 
 ## Approach
 The main aim of the project is to detect road lane markings. I followed below sequence of steps to build the pipeline:
