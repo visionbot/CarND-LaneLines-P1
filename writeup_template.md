@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/solideWhiteCurve.jpg" width="480" alt="Combined Image" />
 ---
 
 ## Approach
@@ -41,8 +41,6 @@ The Hough line detection algorithm helped to remove lot of edge outliers but pro
 - I used line pair to extrapolate the line markings by finding the line intercepts and vanishing gradient points. 
 
 ## Results
-![image1](./test_images_output/solideWhiteCurve.jpg)
-![image2](./test_images_output/solideWhiteRight.jpg)
 ![image3](./test_images_output/solidYellowCurve.jpg)
 
 ## Limitations and Improvements
